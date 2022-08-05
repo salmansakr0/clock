@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Electronic clock</title>
+    <link rel="shortcut icon" href="3d-realistic-circle-shaped-clock-vector-illustration_97886-251 (1).jpg">
+</head>
+<body>
+        <h1 id="myClock" class="clock" onload="showTime()"></h1>
+
+
+
+          <div class="ovaerlay">
+        <video autoplay muted loop id="myVideo">
+            <source src="watch.mp4" type="video/mp4">
+          </video>
+          
+          <!-- Optional: some overlay text to describe the video -->
+          <div class="content">
+            <!-- Use a button to pause/play the video with JavaScript -->
+            <button id="myBtn" onclick="myFunction()">Pause</button>
+          </div>
+        </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
